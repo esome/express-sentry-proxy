@@ -1,0 +1,23 @@
+{
+  "name": "express-sentry-proxy",
+  "version": "1.0.0",
+  "description": "express.js middleware that accepts Sentry requests and proxies them to an actual Sentry server",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:esome/express-sentry-proxy.git"
+  },
+  "author": "Jan Hapke <jan.hapke@esome.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "jest": "^24.1.0"
+  }
+}
